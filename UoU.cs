@@ -8,7 +8,7 @@ namespace UoU {
     //Transforme a classe Heroi em uma classe abstrata, realizando os ajustes
     //necessários no restante do programa.
  public abstract class Heroi {
-    private string Nome;
+    protected string Nome;
     protected double Pontos_Vida;
     
     public Heroi (string Nome, double Pontos_vida)
@@ -37,8 +37,8 @@ namespace UoU {
     //Os métodos LancarMagia() e AtacarComArma() devem ser deixados vazios.
     //Transforme os métodos LancarMagia() e AtacarComArma() em métodos
     //abstratos, realizando os ajustes necessários no restante do programa.
-    public virtual void LancarMagia();
-    public virtual  void AtacarComArma();
+    public abstract void LancarMagia();
+    public abstract  void AtacarComArma();
 
     public virtual void ReduzirVida() {
     this.Pontos_Vida =  this.Pontos_Vida - 20;
