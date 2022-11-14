@@ -64,6 +64,9 @@ namespace UoU {
     public override void LancarMagia(){
         Console.WriteLine ("Chama Divina!");
     }
+    public override  void AtacarComArma() {
+        Console.WriteLine ("Pela Honra de Grayskull");
+    }
    }
     
     //Crie uma classe chamada HeroiHorda herdando da classe Heroi.
@@ -79,6 +82,9 @@ namespace UoU {
     public override void LancarMagia(){
         Console.WriteLine ("Névoa da Morte!");
     }
+    public override  void AtacarComArma(){
+        Console.WriteLine ("Pela Honra de Khazad-dûm");    
+    }    
 }
     
      
